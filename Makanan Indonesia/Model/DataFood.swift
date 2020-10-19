@@ -1,0 +1,21 @@
+//
+//  DataMakanan.swift
+//  Makanan Indonesia
+//
+//  Created by Muhammad Alfaraby on 08/10/20.
+//
+
+import UIKit
+ 
+var foods: [Food] = [
+    Food(photo: UIImage(named: "AsinanBetawi"), name: "Asinan Betawi", description: "Asinan sayuran orang Betawi dari Jakarta. Berbagai jenis sayuran yang diasinkan dan diawetkan sepert sawi, kubis, taoge, tahu, selada disajian dalam bumbu kacang yang dicampur cuka dan cabai, ditaburi kacang goreng dan kerupuk (khususnya kerupuk mi)."),
+    Food(photo: UIImage(named: "Kerak_Telor"), name: "Kerak Telor", description: "Kerak telur adalah makanan asli daerah Jakarta (Betawi), dengan bahan-bahan beras ketan putih, telur ayam atau bebek, ebi (udang kering yang diasinkan) yang disangrai kering ditambah bawang merah goreng, lalu diberi bumbu yang dihaluskan berupa kelapa sangrai, cabai merah, kencur, jahe, merica butiran, garam dan gula pasir. Kerak telor dapat ditemukan pada hari biasa. Anda bisa menemukan kerak telor di sekitar Kota Tua, Jakarta Barat. Menurut sejarah, Kerak Telor sudah ada dari zaman kolonial Belanda, kerak telor diciptakan oleh masyarakat Betawi secara tak sengaja Pada tahun 1970an."),
+    Food(photo: UIImage(named: "Lumpia"), name: "Lumpia", description: "Lumpia adalah sejenis jajanan tradisional Tionghoa. Lumpia yang dikenal oleh orang Indonesia merupakan lafal Bahasa Hokkian."),
+    Food(photo: UIImage(named: "NasiCampur"), name: "Nasi Campur", description: "Nasi campur adalah masakan khas Indonesia. Makanan ini terdiri dari nasi putih yang dihidangkan dengan bermacam-macam lauk-pauk. Lauk yang digunakan adalah sambal goreng, abon, serundeng, tahu goreng, ikan goreng, telur dan lain-lain. Tergantung dari warung atau rumah makan yang menyajikannya nasi campur dapat memiliki variasi tersendiri. Masakan ini juga sering dijual dalam bungkus kertas atau daun pisang."),
+    Food(photo: UIImage(named: "NasiGoreng"), name: "Nasi Goreng", description: "Nasi goreng merupakan sajian nasi yang digoreng dalam sebuah wajan atau penggorengan menghasilkan cita rasa berbeda karena dicampur dengan bumbu-bumbu seperti bawang putih, bawang merah, merica dan kecap manis. Selain itu, ditambahkan bahan-bahan pelengkap seperti telur, sayur-sayuran, makanan laut, atau daging. Makanan tersebut sering kali disantap sendiri atau disertai dengan hidangan lainnya."),
+    Food(photo: UIImage(named: "AyamPenyet"), name: "Ayam Penyet", description: "Ayam penyet adalah hidangan ayam goreng Indonesia, khususnya Jawa, yang terdiri dari ayam goreng yang diulek memakai ilekan untuk melembutkannya, disajikan dengan sambal, potongan-potongan timun, tahu goreng dan tempe. Varian ayam penyet paling populer adalah ayam penyet Suroboyo."),
+    Food(photo: UIImage(named: "Pempek"), name: "Pempek", description: "Pempek atau empek-empek adalah makanan yang terbuat dari daging ikan yang digiling lembut yang dicampur tepung kanji atau tepung sagu, serta komposisi beberapa bahan lain seperti telur, bawang putih yang dihaluskan, penyedap rasa, dan garam. Pempek biasanya disajikan dengan kuah cuka yang memiliki rasa asam, manis, dan pedas. Pempek sering disebut sebagai makanan khas Palembang, meskipun hampir semua daerah di Sumatera Selatan memroduksinya."),
+    Food(photo: UIImage(named: "sotokudus"), name: "Soto kudus", description: "Soto kudus adalah soto yang berasal dari Kudus. Soto kudus, hampir mirip dengan soto Lamongan, soto kudus berisi suwiran ayam dan taoge. Terkadang soto kudus juga menggunakan daging kerbau. Kuahnya lebih bening."),
+    Food(photo: UIImage(named: "Tempoyakikan"), name: "Tempoyak ikan", description: "Tempoyak atau tempuyak adalah masakan yang berasal dari buah durian yang difermentasi. Tempoyak merupakan makanan yang biasanya dikonsumsi sebagai lauk saat menyantap nasi. Tempoyak juga dapat dimakan langsung, tetapi hal ini jarang sekali dilakukan karena banyak yang tidak tahan dengan keasaman dan aroma dari tempoyak itu sendiri. Selain itu, tempoyak dijadikan bumbu masakan."),
+    Food(photo: UIImage(named: "TudeBakar"), name: "Tude Bakar", description: "Tude Bakar salah satu kuliner khas Manado yang menerbitkan selera makan. Sambal dabu-dabu ternyata tidak hanya cocok dengan ikan kembung. Anda bisa menggantinya dengan ikan laut bakar/goreng jenis lain seperti kakap, kerapu, kue, bawal, dan lainnya.")
+]

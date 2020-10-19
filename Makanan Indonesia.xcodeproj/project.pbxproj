@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570EC20D25304800004D34DB /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570EC20C25304800004D34DB /* Profile.swift */; };
+		5711939B252F3AA70029553F /* FoodTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57119399252F3AA70029553F /* FoodTableView.swift */; };
+		5711939C252F3AA70029553F /* FoodTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5711939A252F3AA70029553F /* FoodTableView.xib */; };
+		571193A5252F45930029553F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571193A3252F45930029553F /* DetailViewController.swift */; };
+		571193A6252F45930029553F /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571193A4252F45930029553F /* DetailViewController.xib */; };
+		57714921252EEB7B00639944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57714920252EEB7B00639944 /* AppDelegate.swift */; };
+		57714923252EEB7B00639944 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57714922252EEB7B00639944 /* SceneDelegate.swift */; };
+		57714925252EEB7B00639944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57714924252EEB7B00639944 /* ViewController.swift */; };
+		57714928252EEB7B00639944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57714926252EEB7B00639944 /* Main.storyboard */; };
+		5771492A252EEB7C00639944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57714929252EEB7C00639944 /* Assets.xcassets */; };
+		5771492D252EEB7C00639944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5771492B252EEB7C00639944 /* LaunchScreen.storyboard */; };
+		5771493B252EF73C00639944 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5771493A252EF73C00639944 /* Food.swift */; };
+		5771493E252EF75000639944 /* DataFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5771493D252EF75000639944 /* DataFood.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		570EC20C25304800004D34DB /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		57119399252F3AA70029553F /* FoodTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableView.swift; sourceTree = "<group>"; };
+		5711939A252F3AA70029553F /* FoodTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableView.xib; sourceTree = "<group>"; };
+		571193A3252F45930029553F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		571193A4252F45930029553F /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		5771491D252EEB7B00639944 /* Makanan Indonesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Makanan Indonesia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57714920252EEB7B00639944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57714922252EEB7B00639944 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57714924252EEB7B00639944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57714927252EEB7B00639944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57714929252EEB7C00639944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5771492C252EEB7C00639944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5771492E252EEB7C00639944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5771493A252EF73C00639944 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		5771493D252EF75000639944 /* DataFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFood.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5771491A252EEB7B00639944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57714914252EEB7B00639944 = {
+			isa = PBXGroup;
+			children = (
+				5771491F252EEB7B00639944 /* Makanan Indonesia */,
+				5771491E252EEB7B00639944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5771491E252EEB7B00639944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5771491D252EEB7B00639944 /* Makanan Indonesia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5771491F252EEB7B00639944 /* Makanan Indonesia */ = {
+			isa = PBXGroup;
+			children = (
+				57714943252EF99B00639944 /* Base */,
+				57714940252EF94E00639944 /* Model */,
+				57714942252EF96000639944 /* Controller */,
+				57714941252EF95400639944 /* View */,
+				57714929252EEB7C00639944 /* Assets.xcassets */,
+				5771492E252EEB7C00639944 /* Info.plist */,
+			);
+			path = "Makanan Indonesia";
+			sourceTree = "<group>";
+		};
+		57714940252EF94E00639944 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5771493A252EF73C00639944 /* Food.swift */,
+				5771493D252EF75000639944 /* DataFood.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57714941252EF95400639944 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				571193A4252F45930029553F /* DetailViewController.xib */,
+				5711939A252F3AA70029553F /* FoodTableView.xib */,
+				5771492B252EEB7C00639944 /* LaunchScreen.storyboard */,
+				57714926252EEB7B00639944 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57714942252EF96000639944 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57714924252EEB7B00639944 /* ViewController.swift */,
+				571193A3252F45930029553F /* DetailViewController.swift */,
+				57119399252F3AA70029553F /* FoodTableView.swift */,
+				570EC20C25304800004D34DB /* Profile.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		57714943252EF99B00639944 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				57714920252EEB7B00639944 /* AppDelegate.swift */,
+				57714922252EEB7B00639944 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5771491C252EEB7B00639944 /* Makanan Indonesia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57714931252EEB7C00639944 /* Build configuration list for PBXNativeTarget "Makanan Indonesia" */;
+			buildPhases = (
+				57714919252EEB7B00639944 /* Sources */,
+				5771491A252EEB7B00639944 /* Frameworks */,
+				5771491B252EEB7B00639944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Makanan Indonesia";
+			productName = "Makanan Indonesia";
+			productReference = 5771491D252EEB7B00639944 /* Makanan Indonesia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57714915252EEB7B00639944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5771491C252EEB7B00639944 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 57714918252EEB7B00639944 /* Build configuration list for PBXProject "Makanan Indonesia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57714914252EEB7B00639944;
+			productRefGroup = 5771491E252EEB7B00639944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5771491C252EEB7B00639944 /* Makanan Indonesia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5771491B252EEB7B00639944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5771492D252EEB7C00639944 /* LaunchScreen.storyboard in Resources */,
+				5771492A252EEB7C00639944 /* Assets.xcassets in Resources */,
+				571193A6252F45930029553F /* DetailViewController.xib in Resources */,
+				57714928252EEB7B00639944 /* Main.storyboard in Resources */,
+				5711939C252F3AA70029553F /* FoodTableView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57714919252EEB7B00639944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57714925252EEB7B00639944 /* ViewController.swift in Sources */,
+				570EC20D25304800004D34DB /* Profile.swift in Sources */,
+				57714921252EEB7B00639944 /* AppDelegate.swift in Sources */,
+				57714923252EEB7B00639944 /* SceneDelegate.swift in Sources */,
+				5711939B252F3AA70029553F /* FoodTableView.swift in Sources */,
+				5771493E252EF75000639944 /* DataFood.swift in Sources */,
+				5771493B252EF73C00639944 /* Food.swift in Sources */,
+				571193A5252F45930029553F /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57714926252EEB7B00639944 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57714927252EEB7B00639944 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5771492B252EEB7C00639944 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5771492C252EEB7C00639944 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5771492F252EEB7C00639944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57714930252EEB7C00639944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57714932252EEB7C00639944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N59Q2QVW76;
+				INFOPLIST_FILE = "Makanan Indonesia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muhammadalfaraby.Makanan-Indonesia";
+				PRODUCT_NAME = "Makanan Indonesia";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57714933252EEB7C00639944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N59Q2QVW76;
+				INFOPLIST_FILE = "Makanan Indonesia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muhammadalfaraby.Makanan-Indonesia";
+				PRODUCT_NAME = "Makanan Indonesia";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57714918252EEB7B00639944 /* Build configuration list for PBXProject "Makanan Indonesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5771492F252EEB7C00639944 /* Debug */,
+				57714930252EEB7C00639944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57714931252EEB7C00639944 /* Build configuration list for PBXNativeTarget "Makanan Indonesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57714932252EEB7C00639944 /* Debug */,
+				57714933252EEB7C00639944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57714915252EEB7B00639944 /* Project object */;
+}
