@@ -16,6 +16,7 @@ class ViewController: UIViewController  {
         foodTableView.delegate = self
         navigationController?.navigationBar.prefersLargeTitles = true
         foodTableView.register(UINib(nibName: "FoodTableView", bundle: nil), forCellReuseIdentifier: "FoodCell")
+        print("test git")
     }
     
 }
