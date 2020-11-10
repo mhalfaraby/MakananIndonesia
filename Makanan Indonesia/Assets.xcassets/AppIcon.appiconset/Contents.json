@@ -11,13 +11,11 @@
       "size" : "20x20"
     },
     {
-      "filename" : "AppIcon29x29.png",
       "idiom" : "iphone",
       "scale" : "1x",
       "size" : "29x29"
     },
     {
-      "filename" : "AppIcon29x29@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
@@ -28,7 +26,6 @@
       "size" : "29x29"
     },
     {
-      "filename" : "AppIcon40x40@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
@@ -39,19 +36,16 @@
       "size" : "40x40"
     },
     {
-      "filename" : "AppIcon57x57.png",
       "idiom" : "iphone",
       "scale" : "1x",
       "size" : "57x57"
     },
     {
-      "filename" : "AppIcon57x57@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "57x57"
     },
     {
-      "filename" : "AppIcon60x60@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
@@ -112,13 +106,11 @@
       "size" : "1024x1024"
     },
     {
-      "filename" : "iTunesArtwork.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
-      "filename" : "iTunesArtwork@2x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"
