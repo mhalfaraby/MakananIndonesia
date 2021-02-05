@@ -21,7 +21,7 @@ class ViewController: UIViewController  {
 }
 extension ViewController: UITableViewDataSource {
     // jumlah table berdasarkan array struct
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { // berapa jumlah tablenya
         return foods.count
     }
     // menampilkan cell nya sesuai array struct
